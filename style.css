@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:ital,wght@0,100;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: black;
+}
+
+.container {
+  background: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login img {
+  width: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  background: cornflowerblue;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  padding: 5px 10px;
+  border-radius: 50px;
+  width: 200px;
+}
+
+.login a:hover {
+  background: #1e1e1e;
+  color: white;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
